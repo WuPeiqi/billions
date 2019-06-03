@@ -1,0 +1,26 @@
+# pycharm
+.idea/
+.DS_Store
+
+
+# Django stuff:
+*.log
+local_settings.py
+*.sqlite3
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+dist/
+eggs/
+.eggs/
+sdist/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
