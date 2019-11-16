@@ -1,0 +1,4 @@
+{% load staticfiles %}
+{% for src in scripts %}
+<script src="{% static src %}"></script>
+{% endfor %}

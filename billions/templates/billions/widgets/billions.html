@@ -1,0 +1,4 @@
+<div class="billions-area" id="{{ widget.billions_area_id }}">
+<textarea style="display: none;" name="{{ widget.name }}"{% include "django/forms/widgets/attrs.html" %}>
+{% if widget.value %}{{ widget.value }}{% endif %}</textarea>
+</div>
